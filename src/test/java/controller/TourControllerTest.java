@@ -1,3 +1,6 @@
+// svo margt sem mig langar að test seinna 
+//serstaklega login og checkout
+
 package controller;
 
 import java.util.List;
@@ -26,6 +29,6 @@ public class TourControllerTest {
         List<Tour> tours = tourController.getAllTours();
         assertNotNull(tours, "ekki vera null");
         assertFalse(tours.isEmpty(), "listinn á ekki að vera tómur");
-        assertEquals(3, tours.size(), "bjóst við 3 tours"); // 3 væri fjöldi tours í database
+        assertEquals(12, tours.size(), "bjóst við 12 tours"); // 12 væri fjöldi tours í database
     }
 }
